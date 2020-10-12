@@ -2,8 +2,6 @@ import { bool } from "prop-types"
 import React from "react"
 import { ProfileType } from "../../types"
 
-const ghInspiredColors = require('../../../../../config/gh-inspired.js');
-
 const Footer = ({ name, showThemeLogo = true }) => (
   <footer className="bg-front mt-16 pt-8 pb-16">
     <div className="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex items-center">
@@ -43,7 +41,7 @@ const Footer = ({ name, showThemeLogo = true }) => (
             </svg>
           </a>
         )}
-        <p style={{color: ghInspiredColors.lead}}><b>Last modified</b> 2020.09.30</p>
+        <p className="text-lead"><b>Last modified</b> 2020.09.30</p>
       </div>
     </div>
   </footer>

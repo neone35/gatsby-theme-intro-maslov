@@ -1,7 +1,7 @@
 import React from "react"
 import { FaEnvelope } from "react-icons/fa"
 import { ProfileType } from "../../types"
-import logo from "../../../../../static/logos/logo_72.png"
+import logo from "../../../content/images/logo_72.png"
 /**
  * modified initials into logo
  * 
