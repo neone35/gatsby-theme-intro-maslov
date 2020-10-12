@@ -6,10 +6,10 @@ module.exports = ({
 }) => {
   return {
     siteMetadata: {
-      description: "Personal page of John Doe",
+      description: "Personal page of Artur Maslov",
       locale: "en",
       showThemeLogo,
-      title: "John Doe",
+      title: "Artur Maslov",
     },
     plugins: [
       {

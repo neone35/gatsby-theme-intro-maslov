@@ -1,29 +1,41 @@
 - profile:
-  initials: JD
-  name: John Doe
-  email: john.doe@change.me
-  profession: Web Developer
-  image: images/profile.jpg
-  location: New York, USA
+  initials: AM
+  name: Artur Maslov
+  email: arturthemaslov@gmail.com
+  profession: Android / Web Developer
+  image: images/arturmaslov.jpg
+  location: Vilnius, Lithuania
   relocation: true
-  company: Atomic Studio
+  company: Upwork (freelance)
   for_hire: true
-  focus: Learning Gatsby
-  focus_url: https://gatsbyjs.org
+  focus: React Native
+  focus_url: https://reactnative.dev/
   about: |
-    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
-
-    User generated content in real-time will have multiple touchpoints for offshoring. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+    I am a highly motivated person. My idol is Elon Musk. He is exceptionally straightforward and never gives
+            up. I have a high pain threshold to solve important problems. During my childhood I solved problems with
+            lego bricks and drew lots of mechanical creations. My language skills include Russian, Polish, Lithuanian,
+            English. This helps me consume information from multiple sources. I love to help people solve their problems
+            in IT and make the world step forward faster towards a brighter future. I took courses about the human
+            brain, neural links, which helps me learn in the most effective way. I am an active person – I ride my
+            bicycle every day, try to walk more than 5km per day and take frequent breaks while developing. 
   skills:
-    - JavaScript
-    - HTML / CSS
-    - Ruby on Rails
-  tools:
     - React
+    - PHP
+    - Android
+  skills_links:
+    - https://reactjs.org/
+    - https://www.php.net/
+    - https://en.wikipedia.org/wiki/Java_(programming_language)
+  tools:
+    - Android Studio
     - VSCode
-    - Gatsby
+    - Postman
+  tools_links:
+    - https://developer.android.com/studio
+    - https://code.visualstudio.com/
+    - https://www.postman.com/
   budget:
-    currency: $
-    min: 5
-    max: 30
-    default: 10
+    currency: €
+    min: 10
+    max: 5000
+    default: 500

@@ -29,6 +29,15 @@ module.exports = theme => {
         spacing: {
           "14": "3.5rem",
         },
+        animation: {
+          'spin-slow': 'rotate360 3s linear infinite',
+        },
+        keyframes: {
+          rotate360: {
+            '0%': {transform:'rotate(0deg)'},
+            '100%': {transform:'rotate(360deg)'},
+          },
+        },
       },
     },
   }

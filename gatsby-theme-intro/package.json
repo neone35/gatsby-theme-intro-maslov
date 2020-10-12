@@ -1,9 +1,9 @@
 {
-  "name": "@wkocjan/gatsby-theme-intro",
+  "name": "@arturthemaslov/gatsby-theme-intro-maslov",
   "description": "Personal branding theme for developers",
-  "version": "1.0.14",
+  "version": "1.0.2",
   "main": "index.js",
-  "author": "Wojciech Kocjan <wojciech@kocjan.net>",
+  "author": "Artur Maslov <arturthemaslov@gmail.com>",
   "dependencies": {
     "autoprefixer": "^9.7.6",
     "color": "^3.1.2",
@@ -51,9 +51,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wkocjan/gatsby-theme-intro"
+    "url": "git+https://github.com/neone35/gatsby-theme-intro-maslov.git"
   },
   "bugs": {
-    "url": "https://github.com/wkocjan/gatsby-theme-intro/issues"
-  }
+    "url": "https://github.com/neone35/gatsby-theme-intro-maslov/issues"
+  },
+  "homepage": "https://github.com/neone35/gatsby-theme-intro-maslov#readme"
 }

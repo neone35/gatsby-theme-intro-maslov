@@ -24,7 +24,9 @@ export const ProfileType = {
   profession: string.isRequired,
   relocation: bool.isRequired,
   skills: arrayOf(string).isRequired,
+  skills_links: arrayOf(string).isRequired,
   tools: arrayOf(string).isRequired,
+  tools_links: arrayOf(string).isRequired,
 }
 
 export const query = graphql`
@@ -55,6 +57,8 @@ export const query = graphql`
     profession
     relocation
     skills
+    skills_links
     tools
+    tools_links
   }
 `

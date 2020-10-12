@@ -93,7 +93,7 @@ const ContactForm = ({ email, budget }) => {
                   type="range"
                 />
                 <div className="font-header font-semibold leading-none text-front opacity-50">
-                  {budget.currency} {selectedBudget}K
+                  {budget.currency} {selectedBudget}
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@ import { arrayOf, shape, string, object, oneOf } from "prop-types"
 
 export const ProjectType = {
   description: string,
-  icon: oneOf(["github", "website"]),
+  icon: oneOf(["github", "website", "android", "react", "wordpress"]),
   image: shape({
     childImageSharp: object.isRequired,
   }),

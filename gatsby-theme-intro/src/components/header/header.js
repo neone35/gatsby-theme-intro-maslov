@@ -1,11 +1,18 @@
 import React from "react"
 import { FaEnvelope } from "react-icons/fa"
 import { ProfileType } from "../../types"
-
+import logo from "../../../../../static/logos/logo_72.png"
+/**
+ * modified initials into logo
+ * 
+ <span className="inline-flex w-14 h-14 lg:mt-4 font-header font-bold text-xl justify-center items-center text-center text-front border-2 border-solid border-front rounded-full">
+      {initials}
+    </span>
+ */
 const Header = ({ initials }) => (
   <header className="flex justify-between p-4 lg:px-8">
-    <span className="inline-flex w-14 h-14 lg:mt-4 font-header font-bold text-xl justify-center items-center text-center text-front border-2 border-solid border-front rounded-full">
-      {initials}
+    <span className="inline-flex w-16 h-16 lg:mt-2">
+        <img src={logo} alt="Logo" />
     </span>
     <a
       className="flex w-14 h-14 font-header font-semibold px-2 bg-lead rounded-full text-lead-text justify-center items-center leading-tight lg:w-auto lg:h-auto lg:px-6 lg:py-2 lg:rounded-lg lg:self-start lg:mt-4 hover:opacity-75 transition-opacity duration-150"
