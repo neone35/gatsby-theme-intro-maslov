@@ -18,6 +18,10 @@ export const ProfileType = {
     childImageSharp: object.isRequired,
     publicURL: string.isRequired,
   }),
+  logotype: shape({
+    childImageSharp: object.isRequired,
+    publicURL: string.isRequired,
+  }),
   initials: string.isRequired,
   location: string.isRequired,
   name: string.isRequired,
@@ -46,6 +50,14 @@ export const query = graphql`
     image {
       childImageSharp {
         fixed(width: 144, height: 144, quality: 85) {
+          ...GatsbyImageSharpFixed_withWebp
+        }
+      }
+      publicURL
+    }
+    logotype {
+      childImageSharp {
+        fixed(width: 72, height: 72, quality: 85) {
           ...GatsbyImageSharpFixed_withWebp
         }
       }

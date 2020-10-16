@@ -34,3 +34,6 @@
 - name: medium
   url:
 
+- name: spotify
+  url: https://open.spotify.com/user/neone35
+

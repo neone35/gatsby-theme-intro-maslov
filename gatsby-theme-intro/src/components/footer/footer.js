@@ -41,7 +41,7 @@ const Footer = ({ name, showThemeLogo = true }) => (
             </svg>
           </a>
         )}
-        <p className="text-lead"><b>Last modified</b> 2020.09.30</p>
+        <p className="text-lead"><b>Last modified</b> 2020.10.15</p>
       </div>
     </div>
   </footer>

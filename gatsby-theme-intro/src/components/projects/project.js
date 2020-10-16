@@ -32,7 +32,7 @@ const Project = props => {
           {tags && <ProjectTags tags={tags} />}
         </ul>
 
-        {icon && <ProjectIcon icon={icon} />}
+        {icon && <ProjectIcon icon={icon} classNames="absolute right-0 bottom-0 mb-5 mr-5 text-back" />}
       </div>
     </div>
   )

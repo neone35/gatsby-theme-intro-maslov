@@ -13,6 +13,7 @@ import {
   FaYoutube,
   FaXing,
   FaStackOverflow,
+  FaSpotify,
 } from "react-icons/fa"
 import { SocialType } from "../../types"
 
@@ -31,6 +32,7 @@ const SocialIcon = ({ name, ...params }) => {
     youtube: FaYoutube,
     xing: FaXing,
     stackoverflow: FaStackOverflow,
+    spotify: FaSpotify,
   }
 
   const Icon = icons[name]

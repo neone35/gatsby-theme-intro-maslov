@@ -2,16 +2,17 @@ import React from "react"
 import { FaCompass, FaReact, FaWordpressSimple } from "react-icons/fa"
 import { AiFillAndroid, AiFillGithub } from "react-icons/ai"
 import { ProjectType } from "../../types"
+import PropTypes from 'prop-types';
 
-const ProjectIcon = ({ icon }) => (
-  <span className="absolute right-0 bottom-0 mb-5 mr-5 text-back">
+const ProjectIcon = ({ icon, classNames }) => (
+  <span className={classNames}>
     {
       {
-        'github': <AiFillGithub className="w-6 h-6" />,
-        'website': <FaCompass className="w-6 h-6" />,
-        'android': <AiFillAndroid className="w-6 h-6" />,
-        'react': <FaReact className="w-6 h-6" />,
-        'wordpress': <FaWordpressSimple className="w-6 h-6" />
+        'github': <AiFillGithub className="w-6 h-6 inline-block" />,
+        'website': <FaCompass className="w-6 h-6 inline-block" />,
+        'android': <AiFillAndroid className="w-6 h-6 inline-block" />,
+        'react': <FaReact className="w-6 h-6 inline-block" />,
+        'wordpress': <FaWordpressSimple className="w-6 h-6 inline-block" />
       }[icon]
     }
   </span>
@@ -19,6 +20,7 @@ const ProjectIcon = ({ icon }) => (
 
 ProjectIcon.propTypes = {
   icon: ProjectType.icon,
+  classNames: PropTypes.string,
 }
 
 export default ProjectIcon

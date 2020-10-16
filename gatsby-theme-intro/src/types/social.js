@@ -16,6 +16,7 @@ export const SocialType = {
     "youtube",
     "xing",
     "stackoverflow",
+    "spotify",
   ]),
   url: string,
 }

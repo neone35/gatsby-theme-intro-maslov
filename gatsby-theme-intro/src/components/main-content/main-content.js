@@ -28,14 +28,22 @@ const MainContent = ({ eduHistory, workHistory, projects, profile }) => {
 
       {profile.about && <About about={profile.about} />}
       <Projects projects={projects} />
-      <Tabs>
-        <TabList>
-          <Tab selectedClassName="font-semibold bg-white">
+      <Tabs className="m-0">
+        <TabList className="border-b-2">
+          <Tab 
+          selectedClassName="font-semibold bg-white text-front" 
+          key={"history-tab-" + Math.random()} 
+          className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
+          >
             <span className="text-sm uppercase mt-12 mb-3 text-center">
               Work History
             </span>
           </Tab>
-          <Tab selectedClassName="font-semibold bg-white">
+          <Tab 
+          selectedClassName="font-semibold bg-white" 
+          key={"history-tab-" + Math.random()} 
+          className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
+          >
             <span className="text-sm uppercase mt-12 mb-3 text-center">
               Education History
             </span>

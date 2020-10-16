@@ -18,7 +18,7 @@ const rotate = keyframes`
 `;
 
 const Rotate = styled.div`
-  animation: ${rotate} 30s linear infinite;
+  animation: ${rotate} 40s linear infinite;
 `;
 
 const CenteredSpan = styled.span`
@@ -29,7 +29,7 @@ const CenteredSpan = styled.span`
 `;
 
 const Skill = ({ skill, i }) => (
-  <div class="relative transition transform hover:-translate-y-1 hover:scale-105 duration-150 ease-in-out">
+  <div className="relative transition transform hover:-translate-y-1 hover:scale-105 duration-150 ease-in-out">
     <Rotate>
       <li className={`relative flex justify-center items-center rounded-full border-2 border-skill-${i}`} >
         <SkillSvg className={`w-full text-skill-${i} opacity-75 m-2 `} />
