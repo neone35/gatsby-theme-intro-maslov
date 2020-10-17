@@ -10,7 +10,7 @@ import StructuredData from "../components/structured-data/structured-data"
 import "../styles/style.css"
 
 const IndexPage = ({ data }) => {
-  const { eduHistory, workHistory, profile, projects, site, social } = data
+  const { eduHistory, workHistory, profile, projects, site, social, certifications } = data
 
   return (
     <div className="antialiased bg-back leading-normal font-text text-front">
@@ -28,6 +28,7 @@ const IndexPage = ({ data }) => {
           workHistory={workHistory.nodes}
           profile={profile}
           projects={projects.nodes}
+          certifications={certifications.nodes}
         />
       </div>
 
@@ -64,6 +65,11 @@ export const query = graphql`
     eduHistory: allEducationHistoryYaml {
       nodes {
         ...EducationHistoryFragment
+      }
+    }
+    certifications: allCertificationsYaml {
+      nodes {
+        ...CertificationFragment
       }
     }
     projects: allProjectsYaml {

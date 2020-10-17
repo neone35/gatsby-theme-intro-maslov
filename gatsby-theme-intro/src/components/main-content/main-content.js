@@ -7,10 +7,11 @@ import Summary from "../summary/summary"
 import Tools from "../tools/tools"
 import WorkHistory from "../work-history/work-history"
 import EducationHistory from "../work-history/education-history"
+import Certifications from "../certifications/certifications"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-const MainContent = ({ eduHistory, workHistory, projects, profile }) => {
+const MainContent = ({ eduHistory, workHistory, projects, profile, certifications }) => {
   return (
     <main className="lg:w-2/3 lg:pl-8 xl:pl-12">
       <Summary profile={profile} />
@@ -29,7 +30,7 @@ const MainContent = ({ eduHistory, workHistory, projects, profile }) => {
       {profile.about && <About about={profile.about} />}
       <Projects projects={projects} />
       <Tabs className="m-0">
-        <TabList className="border-b-2">
+        <TabList className="border-b-4 border-line">
           <Tab 
           selectedClassName="font-semibold bg-white text-front" 
           key={"history-tab-" + Math.random()} 
@@ -48,12 +49,24 @@ const MainContent = ({ eduHistory, workHistory, projects, profile }) => {
               Education History
             </span>
           </Tab>
+          <Tab 
+          selectedClassName="font-semibold bg-white" 
+          key={"history-tab-" + Math.random()} 
+          className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
+          >
+            <span className="text-sm uppercase mt-12 mb-3 text-center">
+              Certifications
+            </span>
+          </Tab>
         </TabList>
         <TabPanel>
           <WorkHistory history={workHistory} />
         </TabPanel>
         <TabPanel>
           <EducationHistory history={eduHistory} />
+        </TabPanel>
+        <TabPanel>
+          <Certifications certifications={certifications} />
         </TabPanel>
       </Tabs>
       <ContactForm email={profile.email} budget={profile.budget} />
