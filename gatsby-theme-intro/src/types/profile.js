@@ -31,6 +31,7 @@ export const ProfileType = {
   skills_links: arrayOf(string).isRequired,
   tools: arrayOf(string).isRequired,
   tools_links: arrayOf(string).isRequired,
+  last_update: string.isRequired,
 }
 
 export const query = graphql`
@@ -72,5 +73,6 @@ export const query = graphql`
     skills_links
     tools
     tools_links
+    last_update
   }
 `

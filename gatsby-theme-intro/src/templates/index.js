@@ -35,6 +35,7 @@ const IndexPage = ({ data }) => {
       <Footer
         name={profile.name}
         showThemeLogo={site.siteMetadata.showThemeLogo}
+        lastUpdate={profile.last_update}
       />
     </div>
   )
