@@ -7,7 +7,8 @@
   image: images/arturmaslov.jpg
   location: Vilnius, Lithuania
   relocation: true
-  company: Upwork (freelance)
+  company: Artme (freelance)
+  company_url: https://www.artme.lt/
   for_hire: true
   focus: React Native
   focus_url: https://reactnative.dev/
@@ -40,4 +41,4 @@
     min: 10
     max: 5000
     default: 500
-  last_update: 2020.11.10
+  last_update: 2021.01.02

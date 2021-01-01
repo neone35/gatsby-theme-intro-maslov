@@ -10,6 +10,7 @@ export const ProfileType = {
     min: number.isRequired,
   }).isRequired,
   company: string.isRequired,
+  company_url: string.isRequired,
   email: string.isRequired,
   focus: string.isRequired,
   focus_url: string,
@@ -44,6 +45,7 @@ export const query = graphql`
       min
     }
     company
+    company_url
     email
     focus
     focus_url
