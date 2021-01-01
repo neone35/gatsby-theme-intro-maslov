@@ -99,10 +99,22 @@ For each entry you can provide:
 
 | Parameter | Value                        | Is required? |
 | --------- | ---------------------------- | ------------ |
-| school   | Name of the school          | yes          |
-| period   | Start / End date             | no           |
-| level    | Your gained degree            | no           |
+| school    | Name of the school           | yes          |
+| period    | Start / End date             | no           |
+| level     | Your gained degree           | no           |
 | url       | URL of the company           | no           |
+
+#### `certifications.yaml`
+
+For each entry you can provide:
+
+| Parameter | Value                        | Is required? |
+| --------- | ---------------------------- | ------------ |
+| issuer    | Name of the issuer           | yes          |
+| program   | Name of the program          | yes          |
+| date      | Start / End date             | no           |
+| image     | Image of certification       | no           |
+| url       | URL of the issuer            | no           |
 
 #### `social.yaml`
 

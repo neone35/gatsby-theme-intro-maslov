@@ -37,7 +37,7 @@ const MainContent = ({ eduHistory, workHistory, projects, profile, certification
           className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
           >
             <span className="text-sm uppercase mt-12 mb-3 text-center">
-              Work History
+              Work
             </span>
           </Tab>
           <Tab 
@@ -46,7 +46,7 @@ const MainContent = ({ eduHistory, workHistory, projects, profile, certification
           className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
           >
             <span className="text-sm uppercase mt-12 mb-3 text-center">
-              Education History
+              Education
             </span>
           </Tab>
           <Tab 
