@@ -1,17 +1,72 @@
+const config = require('./config/website');
+const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
+
+require("dotenv").config({
+  path: `.env`,
+})
+
 module.exports = {
   siteMetadata: {
-    description: "Personal page of John Doe",
+    description: config.siteTitle,
     locale: "en",
-    title: "John Doe",
+    title: config.siteTitleAlt,
   },
   plugins: [
     {
-      resolve: "@wkocjan/gatsby-theme-intro",
+      resolve: "@arturthemaslov/gatsby-theme-intro-maslov",
       options: {
-        basePath: "/",
+        basePath: pathPrefix,
         contentPath: "content/",
-        showThemeLogo: true,
-        theme: "classic",
+        showThemeLogo: false,
+        theme: "gh-inspired",
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: config.siteTitle,
+        short_name: config.siteTitleAlt,
+        description: config.siteDescription,
+        start_url: config.pathPrefix,
+        background_color: config.backgroundColor,
+        theme_color: config.themeColor,
+        display: 'standalone',
+        icons: [
+          {
+            src: '/favicons/android-chrome-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/favicons/android-chrome-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `fz2wjdoqskdl`,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    /* Must be placed at the end */
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 1981108,
+        sv: 6,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-129653361-1',
+        // Puts tracking script in the head instead of the body
+        head: false,
       },
     },
   ],
