@@ -1,0 +1,23 @@
+- issuer: Udacity
+  program: Android Nanodegree
+  date: August 2018
+  image: images/certifications/udacity-android-nanodegree.png
+  url: https://graduation.udacity.com/confirm/QCECKDGE
+
+- issuer: Udemy
+  program: 'Node with React: Fullstack Web Development'
+  date: March 2018
+  image: images/certifications/udemy-react.jpg
+  url: https://www.udemy.com/certificate/UC-ARBAGSK9/
+
+- issuer: Coursera
+  program: Learning How to Learn
+  date: May 2017
+  image: images/certifications/coursera-learning-how-to-learn.jpg
+  url: https://www.coursera.org/learn/learning-how-to-learn
+
+- issuer: Datacamp
+  program: Intro to Python for Data Science
+  date: July 2017
+  image: images/certifications/data-camp-intro-python.jpg
+  url: https://www.coursera.org/learn/learning-how-to-learn

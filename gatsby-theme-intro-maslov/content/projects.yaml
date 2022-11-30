@@ -1,0 +1,68 @@
+- name: Rearn flashcards
+  url: https://rearn-flashcard-app.herokuapp.com/
+  description: This PWA application attempts to remake design (Material UI) and logic (calculate learning progress) of flashcard application. It is available to use offline on any device that supports Google Chrome or Firefox internet browsers (needs service worker support).
+  status: live
+  tags:
+    - NextJS
+    - Webpack
+    - Workbox
+    - MongooseJS
+    - PassportJS
+    - ExpressJS
+    - MaterialUI
+    - Bootstrap
+  icon: react
+  image: images/projects/icon-rearn512.png
+
+- name: Enalyzer 
+  url: https://github.com/neone35/enalyzer
+  description: Helps you easily recognize food additive codes in real time using phone camera. Provides detailed information about every ingredient list item that matches european food additive code definition. It’s a great app to shop with!
+  status: complete
+  tags:
+    - MLkit
+    - Google Health
+    - Firebase
+    - Architecture components
+  icon: android
+  image: images/projects/enalyzer.png
+
+- name: Geowords 
+  url: https://github.com/neone35/geowords
+  description: Allows to associate user input with markers on the map. Saves search history to repeat query and set/edit marker with long press on the map.
+  status: complete
+  tags:
+    - RXjava
+    - Retrofit
+    - WordsAPI
+    - MaterialUI
+  icon: android
+
+- name: Chargent 
+  url: https://github.com/neone35/chargent
+  description: Provides easy way of consuming Spark electric car rental API by showing data on a map or list and sorting cars by plate number or remaining battery.
+  status: complete
+  tags:
+    - RXjava
+    - Retrofit
+    - Glide
+    - Google Maps
+  icon: android
+
+- name: Santechnikas123 
+  url: http://santechnikas123.lt/
+  description: Website for local plumber company.
+  status: live
+  tags:
+    - Wordpress
+    - Wordplate
+  icon: wordpress
+
+- name: GDLball
+  url: https://www.gdlball.lt/shop/
+  description: Shop for local patriot movement group.
+  status: live
+  tags:
+    - Wordpress
+    - WooCommerce
+    - Polylang
+  icon: wordpress

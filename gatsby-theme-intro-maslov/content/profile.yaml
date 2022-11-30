@@ -1,0 +1,41 @@
+- profile:
+  initials: AM
+  logotype: images/logo.png
+  name: Artur Maslov
+  email: arturthemaslov@gmail.com
+  profession: Web & app developer
+  image: images/am-pfp.png
+  location: Vilnius, Lithuania
+  relocation: true
+  company: Artme (freelance)
+  company_url: https://www.artme.lt/
+  for_hire: true
+  focus: React Native
+  focus_url: https://reactnative.dev/
+  about: >-
+    I love to help people solve their problems in IT and make the world step forward towards a brighter future.
+    I took courses about the human brain, neural links, which helps me learn in the most effective way.
+    My language skills include Russian, Polish, Lithuanian, English. This helps me consume information from multiple sources.
+    I am an active person – I ride my bicycle every day, try to walk more than 5km per day and take frequent breaks while developing.
+  skills:
+    - Javacript
+    - Kotlin
+    - Java
+  skills_links:
+    - https://reactjs.org/
+    - https://developer.android.com/kotlin
+    - https://en.wikipedia.org/wiki/Java_(programming_language)
+  tools:
+    - VSCode
+    - Android Studio
+    - Postman
+  tools_links:
+    - https://code.visualstudio.com/
+    - https://developer.android.com/studio
+    - https://www.postman.com/
+  budget:
+    currency: €
+    min: 10
+    max: 5000
+    default: 500
+  last_update: 2022.11.29
