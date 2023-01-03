@@ -18,11 +18,11 @@ const MainContent = ({ eduHistory, workHistory, projects, profile, certification
 
       <div className="flex flex-wrap">
         <div className="md:w-3/4 pb-12 md:pr-8 lg:pr-12 xl:pr-20">
-          {profile.skills && profile.skills_links && 
+          {profile.skills && profile.skills_links &&
             <Skills skills={profile.skills} skillsLinks={profile.skills_links} />}
         </div>
         <div className="md:w-1/4 pb-12">
-          {profile.tools && profile.tools_links && 
+          {profile.tools && profile.tools_links &&
             <Tools tools={profile.tools} toolsLinks={profile.tools_links} />}
         </div>
       </div>
@@ -31,27 +31,27 @@ const MainContent = ({ eduHistory, workHistory, projects, profile, certification
       <Projects projects={projects} />
       <Tabs className="m-0">
         <TabList className="border-b-4 border-line">
-          <Tab 
-          selectedClassName="font-semibold bg-white text-front" 
-          key={"history-tab-" + Math.random()} 
+          <Tab
+          selectedClassName="font-semibold bg-white text-front"
+          key={"history-tab-" + Math.random()}
           className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
           >
             <span className="text-sm uppercase mt-12 mb-3 text-center">
-              Work
+              Workplaces
             </span>
           </Tab>
-          <Tab 
-          selectedClassName="font-semibold bg-white" 
-          key={"history-tab-" + Math.random()} 
+          <Tab
+          selectedClassName="font-semibold bg-white"
+          key={"history-tab-" + Math.random()}
           className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
           >
             <span className="text-sm uppercase mt-12 mb-3 text-center">
               Education
             </span>
           </Tab>
-          <Tab 
-          selectedClassName="font-semibold bg-white" 
-          key={"history-tab-" + Math.random()} 
+          <Tab
+          selectedClassName="font-semibold bg-white"
+          key={"history-tab-" + Math.random()}
           className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
           >
             <span className="text-sm uppercase mt-12 mb-3 text-center">

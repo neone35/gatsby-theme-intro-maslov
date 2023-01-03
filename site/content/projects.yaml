@@ -1,6 +1,31 @@
+- name: tgNBA
+  url: https://github.com/neone35/tgNBA
+  description: Lists NBA teams, their games and allows to search players. Technical task provided by "TGLAB".
+  status: complete
+  tags:
+    - MVVM
+    - Coroutines
+    - Koin
+    - Jetpack Navigation
+  icon: android
+  year: 2022
+
+- name: Artur Maslov personal site
+  url: https://arturmaslov.com/
+  description: My personal website with Gatsby.js static React framework.
+  status: live
+  tags:
+    - Gatsby.js
+    - TailwindCSS
+  icon: react
+  year: 2019
+
 - name: Rearn flashcards
   url: https://rearn-flashcard-app.herokuapp.com/
-  description: This PWA application attempts to remake design (Material UI) and logic (calculate learning progress) of flashcard application. It is available to use offline on any device that supports Google Chrome or Firefox internet browsers (needs service worker support).
+  description: >-
+    This PWA application attempts to remake design (Material UI) and logic (calculate learning progress) of flashcard application.
+    It is available to use offline on any device that supports Google Chrome or Firefox internet browsers (needs service worker support).
+    Final bachelor thesis project.
   status: live
   tags:
     - NextJS
@@ -12,7 +37,7 @@
     - MaterialUI
     - Bootstrap
   icon: react
-  image: images/projects/icon-rearn512.png
+  year: 2018
 
 - name: Enalyzer
   url: https://github.com/neone35/enalyzer
@@ -24,11 +49,14 @@
     - Firebase
     - Architecture components
   icon: android
-  image: images/projects/enalyzer.png
+  year: 2018
 
 - name: Geowords
   url: https://github.com/neone35/geowords
-  description: Allows to associate user input with markers on the map. Saves search history to repeat query and set/edit marker with long press on the map.
+  description: >-
+    Allows to associate user input with markers on the map.
+    Saves search history to repeat query and set/edit marker with long press on the map.
+    Technical task provided by "MR Digital Group" (GPSWOX).
   status: complete
   tags:
     - RXjava
@@ -36,10 +64,13 @@
     - WordsAPI
     - MaterialUI
   icon: android
+  year: 2018
 
 - name: Chargent
   url: https://github.com/neone35/chargent
-  description: Provides easy way of consuming Spark electric car rental API by showing data on a map or list and sorting cars by plate number or remaining battery.
+  description: >-
+    Provides easy way of consuming Spark electric car rental API by showing data on a map or list and sorting cars by plate number or remaining battery.
+    Technical task provided by "MediaPark".
   status: complete
   tags:
     - RXjava
@@ -47,6 +78,7 @@
     - Glide
     - Google Maps
   icon: android
+  year: 2018
 
 - name: Be spalvu
   url: https://bespalvu.lt/
@@ -54,9 +86,20 @@
   status: live
   tags:
     - Wordpress
-    - TailwindCSS
+    - TailPress
     - WP-CLI
   icon: wordpress
+  year: 2022
+
+- name: Narsau
+  url: https://narsau.lt/
+  description: Automatic article publishing from various sources / to facebook.
+  status: live
+  tags:
+    - WP-automatic
+    - WP2Social
+  icon: wordpress
+  year: 2022
 
 - name: Santechnikas123
   url: http://santechnikas123.lt/
@@ -66,6 +109,7 @@
     - Wordpress
     - Wordplate
   icon: wordpress
+  year: 2017
 
 - name: GDLball
   url: https://www.gdlball.lt/shop/
@@ -76,12 +120,5 @@
     - WooCommerce
     - Polylang
   icon: wordpress
+  year: 2017
 
-- name: Whois generator
-  url: https://github.com/neone35/whois_generator_py
-  description: Generates domain list & fetches whois/availabiltiy data.
-  status: complete
-  tags:
-    - Domainr API
-    - Terminal GUI
-  icon: python

@@ -27,7 +27,7 @@ class Location extends React.Component {
             id="marker-container"
             role="menuitem"
             tabIndex={0}
-            className="inline-flex items-center bg-front mt-6 w-auto"
+            className="inline-flex items-center bg-front mt-6 w-auto hover:mb-60 transition-all duration-500"
             onMouseEnter={this.showTooltip.bind(this)} onMouseLeave={this.hideTooltip.bind(this)}
           >
             <span className="text-lead border-r-2 border-back px-3">
@@ -42,7 +42,7 @@ class Location extends React.Component {
             Available for relocation
           </div>
         )}
-        <ToolTip active={this.state.isTooltipActive} position="right" parent="#marker-container" tooltipTimeout={150} useHover={false}>
+        <ToolTip active={this.state.isTooltipActive} position="bottom" parent="#marker-container" tooltipTimeout={150} useHover={false}>
           <div className="object-cover h-auto w-64">
             <LazyLoad>
               <MapChart/>

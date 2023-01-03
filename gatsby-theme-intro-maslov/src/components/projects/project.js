@@ -6,7 +6,7 @@ import ProjectStatus from "./project-status"
 import ProjectTags from "./project-tags"
 
 const Project = props => {
-  const { name, image, url, description, status, tags, icon } = props
+  const { name, image, url, description, status, tags, icon, year } = props
   return (
     <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
       {image && (
@@ -32,7 +32,8 @@ const Project = props => {
           {tags && <ProjectTags tags={tags} />}
         </ul>
 
-        {icon && <ProjectIcon icon={icon} classNames="absolute right-0 bottom-0 mb-5 mr-5 text-back" />}
+        {icon && <ProjectIcon icon={icon} classNames="absolute right-0 bottom-0 mb-5 mr-5 text-line" />}
+        {year && <h1 className="absolute right-0 top-0 mt-5 mr-5 text-line">{year}</h1>}
       </div>
     </div>
   )

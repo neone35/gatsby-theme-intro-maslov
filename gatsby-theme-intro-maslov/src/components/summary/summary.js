@@ -1,6 +1,6 @@
-import React from "react";
-import { FaCompass } from "react-icons/fa";
-import { shape, ProfileType } from "../../types";
+import React from "react"
+import { FaCompass } from "react-icons/fa"
+import { shape, ProfileType } from "../../types"
 
 const Summary = ({ profile }) => (
   <div className="flex pb-8">
@@ -32,27 +32,24 @@ const Summary = ({ profile }) => (
         Focused on
       </h5>
       <div className="font-header font-light text-2xl text-front leading-tight">
-        {profile.focus}
-        {profile.focus_url && (
-          <div>
-            <a
-              aria-label="website"
-              className="inline-block text-front opacity-50 hover:opacity-75 h-4 w-4 transition-opacity duration-150"
-              href={profile.focus_url}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <FaCompass />
-            </a>
-          </div>
-        )}
+        <div>
+          <a
+            aria-label="website"
+            className="text-front hover:opacity-75 h-4 w-4 transition-opacity duration-150"
+            href={profile.focus_url}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {profile.focus}
+          </a>
+        </div>
       </div>
     </div>
   </div>
-);
+)
 
 Summary.propTypes = {
   profile: shape(ProfileType),
-};
+}
 
-export default Summary;
+export default Summary

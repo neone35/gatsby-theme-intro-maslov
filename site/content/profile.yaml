@@ -3,41 +3,41 @@
   logotype: images/logo.png
   name: Artur Maslov
   email: arturthemaslov@gmail.com
-  profession: Web & app developer
+  profession: Android Mid | React Jr | PHP Jr
   image: images/am-pfp.png
   location: Vilnius, Lithuania
   relocation: true
-  company: Artme (freelance)
-  company_url: https://www.artme.lt/
+  company: TGLAB
+  company_url: https://tglab.com/
   for_hire: true
-  focus: Meaning of the life
-  focus_url: https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning
+  focus: Android
+  focus_url: https://developer.android.com/
   about: >-
-    I love to help people solve their problems in IT and make the world step forward towards a brighter future.
-    I took courses about the human brain, neural links, which helps me learn in the most effective way.
-    My language skills include Russian, Polish, Lithuanian, English. This helps me consume information from multiple sources.
-    I am an active person – I ride my bicycle every day, try to walk more than 5km per day and take frequent breaks while developing.
+    Certified mobile developer with interdisciplinary knowledge.
+    This helps to generate new ideas and come up with original solutions.
+    For example, had my own bicycle repair business. I speak, read & write in 4 languages - english, lithuanian, russian, polish.
+    This helps to widen my information input from various sources. I love reading scientific and psychology books in my free time.
+    I am active person – I ride bicycle every day, walk more than 5km per day and take frequent brakes while developing.
+    INTP character type - analytical, curious, original.
   skills:
-    - PHP
-    - React
     - Kotlin
+    - React
+    - PHP
   skills_links:
-    - https://www.php.net/
-    - https://reactjs.org/
     - https://developer.android.com/kotlin
+    - https://reactjs.org/
+    - https://www.php.net/
   tools:
-    - PHPstorm
-    - WEBstorm
     - Android Studio
+    - WEBstorm
     - Postman
   tools_links:
-    - https://www.jetbrains.com/phpstorm/
-    - https://www.jetbrains.com/webstorm/
     - https://developer.android.com/studio
+    - https://www.jetbrains.com/webstorm/
     - https://www.postman.com/
   budget:
     currency: €
     min: 10
     max: 5000
     default: 500
-  last_update: 2022.11.30
+  last_update: 2023.01.03

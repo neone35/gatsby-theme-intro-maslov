@@ -31,11 +31,11 @@ const CenteredSpan = styled.span`
 const Skill = ({ skill, i }) => (
   <div className="relative transition transform hover:-translate-y-1 hover:scale-105 duration-150 ease-in-out">
     <Rotate>
-      <li className={`relative flex justify-center items-center rounded-full border-2 border-skill-1`} >
-        <SkillSvg className={`w-full text-skill-1 opacity-75 m-2 `} />
+      <li className={`relative flex justify-center items-center rounded-full border-2 border-skill${i}`} >
+        <SkillSvg className={`w-full text-skill${i} opacity-75 m-2 `} />
       </li>
     </Rotate>
-    <CenteredSpan className="text-center font-header font-bold text-front text-sm md:text-base">
+    <CenteredSpan className="text-center font-header font-bold text-lead text-md md:text-xl">
       {skill}
     </CenteredSpan>
   </div>

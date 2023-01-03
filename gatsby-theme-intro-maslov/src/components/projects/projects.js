@@ -45,9 +45,9 @@ const Projects = ({ projects }) => (
     <Tabs className="m-0">
       <TabList className="border-b-0 border-line">
         {getDistinctIcons(projects).map((icon, i) => (
-          <Tab 
-          selectedClassName="font-semibold bg-white text-front" 
-          key={`${icon}_${i}`} 
+          <Tab
+          selectedClassName="font-semibold bg-white text-front"
+          key={`${icon}_${i}`}
           className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
           >
             <ProjectIcon icon={icon} className="bg-black align-middle inline-block" />
