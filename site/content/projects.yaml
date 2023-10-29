@@ -1,3 +1,16 @@
+- name: SkubaWare
+  url: https://github.com/neone35/skubaware
+  description: Multi list warehouse inventory manager with filtering options. Technical task provided by "Skuba".
+  status: live
+  tags:
+    - MVVM
+    - Coroutines
+    - Koin DI
+    - Jetpack Compose
+    - Material design components
+  icon: android
+  year: 2023
+
 - name: tgNBA
   url: https://github.com/neone35/tgNBA
   description: Lists NBA teams, their games and allows to search players. Technical task provided by "TGLAB".
@@ -5,7 +18,7 @@
   tags:
     - MVVM
     - Coroutines
-    - Koin
+    - Koin DI
     - Jetpack Navigation
   icon: android
   year: 2022
