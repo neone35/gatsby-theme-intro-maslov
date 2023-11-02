@@ -11,6 +11,18 @@
   icon: android
   year: 2023
 
+- name: Iki kiosk
+  url: private
+  description: Disguises grocery shop entrance tablet web app as a branded device which lists products and prints data.
+  status: complete
+  tags:
+    - Coroutines
+    - USB devices
+    - 3rd party SDK
+    - Custom views
+  icon: android
+  year: 2022
+
 - name: tgNBA
   url: https://github.com/neone35/tgNBA
   description: Lists NBA teams, their games and allows to search players. Technical task provided by "TGLAB".
@@ -22,6 +34,20 @@
     - Jetpack Navigation
   icon: android
   year: 2022
+
+- name: Express pizza courier
+  url: private
+  description: Pizzeria courier app to manage their order progress and accept payments through bluetooth POS.
+  status: complete
+  tags:
+    - MVVM
+    - Coroutines
+    - Bluetooth
+    - 3rd party views
+    - Easy permissions
+    - App Updater
+  icon: android
+  year: 2021
 
 - name: Artur Maslov personal site
   url: https://arturmaslov.com/

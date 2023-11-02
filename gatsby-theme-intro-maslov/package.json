@@ -1,5 +1,5 @@
 {
-  "name": "@arturthemaslov/gatsby-theme-intro-maslov",
+  "name": "gatsby-theme-intro-maslov",
   "description": "Personal branding theme for developers",
   "version": "1.1.0",
   "main": "index.js",
