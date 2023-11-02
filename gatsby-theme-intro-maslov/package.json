@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-theme-intro-maslov",
+  "name": "@arturthemaslov/gatsby-theme-intro-maslov",
   "description": "Personal branding theme for developers",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "author": "Artur Maslov <arturthemaslov@gmail.com>",
   "dependencies": {
