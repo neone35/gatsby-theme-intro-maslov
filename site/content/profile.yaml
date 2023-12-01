@@ -29,15 +29,15 @@
     - https://www.php.net/
   tools:
     - Android Studio
-    - WEBstorm
+    - VScode
     - Postman
   tools_links:
     - https://developer.android.com/studio
-    - https://www.jetbrains.com/webstorm/
+    - https://code.visualstudio.com/
     - https://www.postman.com/
   budget:
     currency: €
     min: 10
     max: 5000
     default: 500
-  last_update: 2023.11.02
+  last_update: 2023.12.01
