@@ -5,14 +5,15 @@
   tags:
     - MVVM
     - Coroutines
+    - Flows
     - Koin DI
     - Jetpack Compose
     - Material design components
   icon: android
   year: 2023
 
-- name: Iki kiosk
-  url: private
+- name: Kiosk app for grocery shop
+  url: 
   description: Disguises grocery shop entrance tablet web app as a branded device which lists products and prints data.
   status: complete
   tags:
@@ -35,8 +36,8 @@
   icon: android
   year: 2022
 
-- name: Express pizza courier
-  url: private
+- name: Courier app for pizza chain
+  url: 
   description: Pizzeria courier app to manage their order progress and accept payments through bluetooth POS.
   status: complete
   tags:
