@@ -1,3 +1,19 @@
+- name: VismaSound
+  url: https://github.com/neone35/vismasound
+  description: Music management and storage client for soundcloud. Technical task provided by "Visma".
+  status: live
+  tags:
+    - MVVM
+    - Coroutines
+    - Flows
+    - Koin DI
+    - Jetpack Compose
+    - Jetpack Navigation
+    - Material design components
+    - Data use cases
+  icon: android
+  year: 2024
+
 - name: SkubaWare
   url: https://github.com/neone35/skubaware
   description: Multi list warehouse inventory manager with filtering options. Technical task provided by "Skuba".

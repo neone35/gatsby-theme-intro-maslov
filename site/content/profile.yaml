@@ -3,12 +3,12 @@
   logotype: images/logo.png
   name: Artur Maslov
   email: arturthemaslov@gmail.com
-  profession: Android Mid | React Jr | PHP Jr
+  profession: Android Mid | React Jr
   image: images/am-pfp.png
   location: Vilnius, Lithuania
   relocation: true
-  company: Skuba
-  company_url: https://www.skuba.lt/lithuania/
+  company: None
+  company_url: https://www.arturmaslov.com
   for_hire: true
   focus: Android
   focus_url: https://developer.android.com/
@@ -40,4 +40,4 @@
     min: 10
     max: 5000
     default: 500
-  last_update: 2023.12.14
+  last_update: 2024.01.22
