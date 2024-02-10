@@ -1,14 +1,23 @@
 - name: linkedin
   url: https://www.linkedin.com/in/neomaslov/
 
+- name: fiverr
+  url: https://www.fiverr.com/theneone/implement-your-android-app-ideas
+
+- name: github
+  url: https://github.com/neone35
+
+- name: stackoverflow
+  url: https://stackoverflow.com/users/1818596/neone
+
 - name: twitter
   url: 
 
 - name: facebook
-  url: https://www.facebook.com/artur.maslov
+  url: 
 
 - name: instagram
-  url: https://www.instagram.com/neleoon/
+  url: 
 
 - name: dribbble
   url:
@@ -18,9 +27,6 @@
 
 - name: producthunt
   url:
-
-- name: github
-  url: https://github.com/neone35
 
 - name: goodreads
   url: https://goodreads.com/neomaslov
@@ -33,9 +39,6 @@
 
 - name: medium
   url:
-
-- name: stackoverflow
-  url: https://stackoverflow.com/users/1818596/neone
 
 - name: spotify
   url: https://open.spotify.com/user/neone35

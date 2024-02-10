@@ -14,10 +14,11 @@ const Sidebar = ({ profile, social }) => (
         <h1 className="font-header font-black text-front text-5xl leading-none break-words mb-6">
           {profile.name}
         </h1>
+
         {profile.image && (
           <ProfileImage image={profile.image} name={profile.name} />
         )}
-        <br />
+
         {profile.location && (
           <Location
             location={profile.location}

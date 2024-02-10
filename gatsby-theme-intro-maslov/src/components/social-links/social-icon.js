@@ -15,6 +15,7 @@ import {
   FaStackOverflow,
   FaSpotify,
 } from "react-icons/fa"
+import { TbBrandFiverr } from "react-icons/tb";
 import { SocialType } from "../../types"
 
 const SocialIcon = ({ name, ...params }) => {
@@ -33,6 +34,7 @@ const SocialIcon = ({ name, ...params }) => {
     xing: FaXing,
     stackoverflow: FaStackOverflow,
     spotify: FaSpotify,
+    fiverr: TbBrandFiverr
   }
 
   const Icon = icons[name]

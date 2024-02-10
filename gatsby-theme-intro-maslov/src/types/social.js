@@ -17,6 +17,7 @@ export const SocialType = {
     "xing",
     "stackoverflow",
     "spotify",
+    "fiverr"
   ]),
   url: string,
 }
