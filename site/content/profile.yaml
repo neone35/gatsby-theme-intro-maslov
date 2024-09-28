@@ -3,22 +3,21 @@
   logotype: images/logo.png
   name: Artur Maslov
   email: arturthemaslov@gmail.com
-  profession: Android Mid | React Jr
+  profession1: Android Dev
+  profession2: Transporter
+  prof_link_1: https://developer.android.com/
+  prof_link_2: http://kaunastransfers.lt/vilnius-airport-transfers/EN
   image: images/am-pfp.png
   location: Vilnius, Lithuania
   relocation: true
   company: Individual
   company_url: https://www.arturmaslov.com
   for_hire: true
-  focus: Android
-  focus_url: https://developer.android.com/
+  focus: Flutter
+  focus_url: https://flutter.dev/
   about: >-
     Certified mobile developer with interdisciplinary knowledge.
     This helps to generate new ideas and come up with original solutions.
-    For example, had my own bicycle repair business. I speak, read & write in 4 languages - english, lithuanian, russian, polish.
-    This helps to widen my information input from various sources. I love reading scientific and psychology books in my free time.
-    I am active person – I ride bicycle every day, walk more than 10km per day and take frequent brakes while developing.
-    INTP character type - analytical, curious, original.
   skills:
     - Kotlin
     - React
@@ -40,4 +39,4 @@
     min: 10
     max: 5000
     default: 500
-  last_update: 2024.02.10
+  last_update: 2024.09.28

@@ -26,7 +26,10 @@ export const ProfileType = {
   initials: string.isRequired,
   location: string.isRequired,
   name: string.isRequired,
-  profession: string.isRequired,
+  profession1: string.isRequired,
+  profession2: string.isRequired,
+  prof_link_1: string.isRequired,
+  prof_link_2: string.isRequired,
   relocation: bool.isRequired,
   skills: arrayOf(string).isRequired,
   skills_links: arrayOf(string).isRequired,
@@ -65,7 +68,10 @@ export const query = graphql`
     initials
     location
     name
-    profession
+    profession1
+    profession2
+    prof_link_1
+    prof_link_2
     relocation
     skills
     skills_links

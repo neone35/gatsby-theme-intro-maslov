@@ -3,7 +3,10 @@
   logotype: images/logo.png
   name: Artur Maslov
   email: arturthemaslov@gmail.com
-  profession: Web & app developer
+  profession1: Android Dev
+  profession2: Transporter
+  prof_link_1: https://developer.android.com/
+  prof_link_2: http://kaunastransfers.lt/vilnius-airport-transfers/EN
   image: images/am-pfp.png
   location: Vilnius, Lithuania
   relocation: true

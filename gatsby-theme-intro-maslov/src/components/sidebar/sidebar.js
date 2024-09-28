@@ -9,8 +9,10 @@ const Sidebar = ({ profile, social }) => (
     <div className="flex flex-col h-full justify-start md:gap-8">
       <div>
         <h2 className="font-header font-light text-front text-2xl leading-none mb-4">
-          {profile.profession}
+          <a href={profile.prof_link_1}>{profile.profession1}</a> |{" "}
+          <a href={profile.prof_link_2} title="Vilnius Airport Transfers - Kaunas Transfers">{profile.profession2}</a>
         </h2>
+
         <h1 className="font-header font-black text-front text-5xl leading-none break-words mb-6">
           {profile.name}
         </h1>
