@@ -18,7 +18,7 @@ const Sidebar = ({ profile, social }) => (
         </h1>
 
         {profile.image && (
-          <ProfileImage image={profile.image} name={profile.name} />
+          <ProfileImage image={profile.image} name={profile.name} cv_url={profile.cv_url} />
         )}
 
         {profile.location && (
