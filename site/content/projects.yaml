@@ -1,7 +1,19 @@
+- name: Lumic
+  url: https://play.google.com/store/apps/details?id=com.arturmaslov.lumic
+  description: Visualize sounds with your device's screen and flashlight! Easily switch between your internal microphone or system sounds to create dynamic sound visualizations. Customize the experience by adjusting screen color, brightness, detection sensitivity, or even using the flashlight for strobe effects. Save your personalized settings as templates with unique names for quick access and flexibility.
+  status: live
+  tags:
+    - MVVM
+    - Koin DI
+    - Jetpack Compose
+    - Jetpack Navigation
+  icon: android
+  year: 2024
+
 - name: VismaSound
   url: https://github.com/neone35/vismasound
   description: Music management and storage client for soundcloud. Technical task provided by "Visma".
-  status: live
+  status: complete
   tags:
     - MVVM
     - Coroutines
@@ -17,7 +29,7 @@
 - name: SkubaWare
   url: https://github.com/neone35/skubaware
   description: Multi list warehouse inventory manager with filtering options. Technical task provided by "Skuba".
-  status: live
+  status: complete
   tags:
     - MVVM
     - Coroutines
@@ -139,7 +151,7 @@
 - name: Be spalvu
   url: https://bespalvu.lt/
   description: Theme development for saxophone player / photographer.
-  status: live
+  status: complete
   tags:
     - Wordpress
     - TailPress
@@ -147,8 +159,8 @@
   icon: wordpress
   year: 2022
 
-- name: Narsau
-  url: https://narsau.lt/
+- name: Atrandu
+  url: https://atrandu.lt/
   description: Automatic article publishing from various sources / to facebook.
   status: live
   tags:
@@ -170,7 +182,7 @@
 - name: GDLball
   url: https://www.gdlball.lt/shop/
   description: Shop for local patriot movement group.
-  status: live
+  status: complete
   tags:
     - Wordpress
     - WooCommerce

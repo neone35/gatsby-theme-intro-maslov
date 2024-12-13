@@ -9,7 +9,7 @@ const Sidebar = ({ profile, social }) => (
     <div className="flex flex-col h-full justify-start md:gap-8">
       <div>
         <h2 className="font-header font-light text-front text-2xl leading-none mb-4">
-          <a href={profile.prof_link_1}>{profile.profession1}</a> |{" "}
+          <a href={profile.prof_link_1}>{profile.profession1}</a> {" "}
           <a href={profile.prof_link_2} title="Vilnius Airport Transfers - Kaunas Transfers">{profile.profession2}</a>
         </h2>
 

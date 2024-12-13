@@ -53,7 +53,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "watch": "yarn link && yarn build --watch"
   },
   "repository": {
     "type": "git",

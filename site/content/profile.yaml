@@ -4,9 +4,7 @@
   name: Artur Maslov
   email: arturthemaslov@gmail.com
   profession1: Android Dev
-  profession2: Transporter
   prof_link_1: https://developer.android.com/
-  prof_link_2: http://kaunastransfers.lt/vilnius-airport-transfers/EN
   cv_url: https://drive.google.com/file/d/1-5FUEd1v1XtuDhq6vdDMRXX7c9scZU9N/view?usp=sharing
   image: images/am-pfp.png
   location: Vilnius, Lithuania
@@ -40,4 +38,4 @@
     min: 10
     max: 5000
     default: 500
-  last_update: 2024.09.28
+  last_update: 2024.12.13
