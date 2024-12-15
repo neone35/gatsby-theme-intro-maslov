@@ -20,11 +20,20 @@ const ProfileImage = ({ image, name, cv_url }) => (
     {/* <div className="absolute inset-0 rounded-full bg-lead z-30 transform translate-x-12"></div>
     <div className="absolute inset-0 rounded-full bg-line z-20 transform translate-x-24"></div> */}
     <a target="_blank" rel="noopener noreferrer" href={cv_url}>
-      <div className="absolute inset-0 rounded-full bg-lead z-10 transform transition translate-x-24 hover:bg-blue-500 duration-150 ease-in-out">
+      <div className="absolute inset-0 rounded-full bg-lead z-10 transform transition translate-x-24 hover:bg-blue-600 duration-150 ease-in-out">
         <CenteredSpan
           className={`text-center font-header text-white text-md md:text-2xl`}
         >
           CV
+        </CenteredSpan>
+      </div>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://blog.arturmaslov.com/">
+      <div className="absolute inset-0 rounded-full bg-gray-400 z-15 transform transition translate-x-48 hover:bg-gray-500 duration-150 ease-in-out">
+        <CenteredSpan
+          className={`text-center font-header text-white text-md md:text-2xl`}
+        >
+          Blog
         </CenteredSpan>
       </div>
     </a>

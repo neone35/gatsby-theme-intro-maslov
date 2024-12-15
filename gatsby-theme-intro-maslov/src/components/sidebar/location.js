@@ -24,17 +24,17 @@ class Location extends React.Component {
     return (
       <div>
         {/* map */}
-        <div className="object-cover h-auto w-full mt-2">
+        {/* <div className="object-cover h-auto w-full mt-2">
           <LazyLoad>
             <MapChart />
           </LazyLoad>
-        </div>
+        </div> */}
         {/* marker with location */}
         <div
           id="marker-container"
           role="menuitem"
           tabIndex={0}
-          className="inline-flex items-center bg-front w-full rounded-bl-lg rounded-br-lg overflow-hidden"
+          className="inline-flex items-center bg-front w-full rounded-full overflow-hidden mt-2"
         >
           <span className="text-lead border-r-2 border-back px-3">
             <FaMapMarkerAlt className="h-4 w-4" />
@@ -49,13 +49,13 @@ class Location extends React.Component {
             Available for relocation
           </div>
         )}
-        {/* <ToolTip active={this.state.isTooltipActive} position="bottom" parent="#marker-container" tooltipTimeout={150} useHover={false}>
+        <ToolTip active={this.state.isTooltipActive} position="bottom" parent="#marker-container" tooltipTimeout={150} useHover={false}>
           <div className="object-cover h-auto w-64">
             <LazyLoad>
               <MapChart/>
             </LazyLoad>
           </div>
-        </ToolTip> */}
+        </ToolTip>
       </div>
     )
   }
