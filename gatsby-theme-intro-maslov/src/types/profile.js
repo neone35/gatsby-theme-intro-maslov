@@ -15,6 +15,7 @@ export const ProfileType = {
   focus: string.isRequired,
   focus_url: string,
   for_hire: bool.isRequired,
+  for_hire_url: string.isRequired,
   image: shape({
     childImageSharp: object.isRequired,
     publicURL: string.isRequired,
@@ -52,6 +53,7 @@ export const query = graphql`
     focus
     focus_url
     for_hire
+    for_hire_url
     image {
       childImageSharp {
         gatsbyImageData(layout: FIXED, width: 144, height: 144, quality: 85)

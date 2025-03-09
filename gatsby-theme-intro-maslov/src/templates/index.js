@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
       <StructuredData profile={profile} social={social.nodes} />
       <CustomFonts />
 
-      <Header initials={profile.initials} />
+      <Header profile={profile} />
 
       <div className="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex flex-wrap pt-4 my-8">
         <Sidebar profile={profile} social={social.nodes} />

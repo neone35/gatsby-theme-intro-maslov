@@ -148,6 +148,40 @@
   icon: android
   year: 2018
 
+- name: PalangaHotel
+  url: https://www.palangahotel.net
+  description: Advertisment site for villa on Baltic sea shore.
+  status: live
+  tags:
+    - Loco Translate
+    - Litespeed cache
+    - Smush Pro
+  icon: wordpress
+  year: 2025
+
+- name: Yogi
+  url: https://www.yogi.lt
+  description: Blog for Lithuanian buddhism.
+  status: live
+  tags:
+    - Loco Translate
+    - Auto Featured Image
+    - Litespeed cache
+    - Smush Pro
+  icon: wordpress
+  year: 2025
+
+- name: MeridaShop
+  url: https://www.meridashop.lt
+  description: Shop for B2B partner to resell Merida bicycles.
+  status: live
+  tags:
+    - WooCommerce
+    - WP-CLI
+    - WP All Import
+  icon: wordpress
+  year: 2024
+
 - name: Be spalvu
   url: https://bespalvu.lt/
   description: Theme development for saxophone player / photographer.
