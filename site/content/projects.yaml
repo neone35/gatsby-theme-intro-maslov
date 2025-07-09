@@ -1,3 +1,19 @@
+- name: Warehouse app for shoe shop chain
+  url:
+  description: Scans barcodes / prints using Zebra peripherals while fetching and uploading files through SFTP while on wireguard VPN.
+  status: complete
+  tags:
+    - MVVM
+    - Koin DI
+    - Jetpack Compose
+    - Jetpack Navigation
+    - Zebra peripherals
+    - Bluetooth
+    - SFTP
+    - Wireguard VPN
+  icon: android
+  year: 2025
+
 - name: Lumic
   url: https://play.google.com/store/apps/details?id=com.arturmaslov.lumic
   description: Visualize sounds with your device's screen and flashlight! Easily switch between your internal microphone or system sounds to create dynamic sound visualizations. Customize the experience by adjusting screen color, brightness, detection sensitivity, or even using the flashlight for strobe effects. Save your personalized settings as templates with unique names for quick access and flexibility.

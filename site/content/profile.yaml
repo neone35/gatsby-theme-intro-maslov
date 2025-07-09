@@ -5,7 +5,7 @@
   email: arturthemaslov@gmail.com
   profession1: Software Developer
   prof_link_1: https://developer.android.com/
-  cv_url: https://drive.google.com/file/d/1-JJU42MjSv1_cDVYqS4cd2B_hEJuR_fQ/view?usp=sharing
+  cv_url: https://drive.google.com/file/d/1v8lQ_1LXCtnSl9tTzpOhQnDJGzjE2cFn/view?usp=sharing
   image: images/am-pfp.png
   location: Vilnius, Lithuania
   relocation: true
@@ -39,4 +39,4 @@
     min: 10
     max: 5000
     default: 500
-  last_update: 2025.03.09
+  last_update: 2025.07.09
