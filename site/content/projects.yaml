@@ -1,21 +1,24 @@
 - name: Warehouse app for shoe shop chain
-  url:
-  description: Scans barcodes / prints using Zebra peripherals while fetching and uploading files through SFTP while on wireguard VPN.
+  url: https://batukalnas.lt/
+  image: images/projects/batu_kalnas_181x49.png
+  description: Scans barcodes / prints using Zebra peripherals while fetching and uploading files through SFTP while on wireguard VPN. All 10+ devices can be controlled and updated remotely through Manage Engine MDM solution which is one of the best EMM's according to https://androidenterprisepartners.withgoogle.com/emm/
   status: complete
   tags:
     - MVVM
     - Koin DI
     - Jetpack Compose
     - Jetpack Navigation
-    - Zebra peripherals
+    - Zebra SDK
     - Bluetooth
     - SFTP
     - Wireguard VPN
+    - Manage Engine MDM
   icon: android
   year: 2025
 
 - name: Lumic
   url: https://play.google.com/store/apps/details?id=com.arturmaslov.lumic
+  image: images/projects/lumic-logo_exp_512.png
   description: Visualize sounds with your device's screen and flashlight! Easily switch between your internal microphone or system sounds to create dynamic sound visualizations. Customize the experience by adjusting screen color, brightness, detection sensitivity, or even using the flashlight for strobe effects. Save your personalized settings as templates with unique names for quick access and flexibility.
   status: live
   tags:
@@ -28,6 +31,7 @@
 
 - name: VismaSound
   url: https://github.com/neone35/vismasound
+  image: images/projects/visma-logo-small.png
   description: Music management and storage client for soundcloud. Technical task provided by "Visma".
   status: complete
   tags:
@@ -39,11 +43,13 @@
     - Jetpack Navigation
     - Material design components
     - Data use cases
+    - SoundCloud API
   icon: android
   year: 2024
 
 - name: SkubaWare
   url: https://github.com/neone35/skubaware
+  image: images/projects/skuba-logo.png
   description: Multi list warehouse inventory manager with filtering options. Technical task provided by "Skuba".
   status: complete
   tags:
@@ -57,7 +63,8 @@
   year: 2023
 
 - name: Kiosk app for grocery shop
-  url: 
+  url: https://iki.lt/
+  image: images/projects/iki-logo.png
   description: Disguises grocery shop entrance tablet web app as a branded device which lists products and prints data.
   status: complete
   tags:
@@ -70,6 +77,7 @@
 
 - name: tgNBA
   url: https://github.com/neone35/tgNBA
+  image: images/projects/tg-lab-logo.png
   description: Lists NBA teams, their games and allows to search players. Technical task provided by "TGLAB".
   status: complete
   tags:
@@ -81,7 +89,8 @@
   year: 2022
 
 - name: Courier app for pizza chain
-  url: 
+  url: https://www.noriupicos.lt/
+  image: images/projects/express-pizza-logo.png
   description: Pizzeria courier app to manage their order progress and accept payments through bluetooth POS.
   status: complete
   tags:
@@ -96,6 +105,7 @@
 
 - name: Artur Maslov personal site
   url: https://arturmaslov.com/
+  image: images/projects/am_logo_500.png
   description: My personal website with Gatsby.js static React framework.
   status: live
   tags:
@@ -106,6 +116,7 @@
 
 - name: Rearn flashcards
   url: https://rearn-flashcard-app.herokuapp.com/
+  image: images/projects/icon-rearn512.png
   description: >-
     This PWA application attempts to remake design (Material UI) and logic (calculate learning progress) of flashcard application.
     It is available to use offline on any device that supports Google Chrome or Firefox internet browsers (needs service worker support).
@@ -125,7 +136,8 @@
 
 - name: Enalyzer
   url: https://github.com/neone35/enalyzer
-  description: Helps you easily recognize food additive codes in real time using phone camera. Provides detailed information about every ingredient list item that matches european food additive code definition. It’s a great app to shop with!
+  image: images/projects/enalyzer.png
+  description: Helps you easily recognize food additive codes in real time using phone camera. Provides detailed information about every ingredient list item that matches european food additive code definition. It’s a great app to shop with! Final project for Android Nanodegree program.
   status: complete
   tags:
     - MLkit
@@ -137,6 +149,7 @@
 
 - name: Geowords
   url: https://github.com/neone35/geowords
+  image: images/projects/gpswox-logo.jpg
   description: >-
     Allows to associate user input with markers on the map.
     Saves search history to repeat query and set/edit marker with long press on the map.
@@ -152,6 +165,7 @@
 
 - name: Chargent
   url: https://github.com/neone35/chargent
+  image: images/projects/media-park-logo.webp
   description: >-
     Provides easy way of consuming Spark electric car rental API by showing data on a map or list and sorting cars by plate number or remaining battery.
     Technical task provided by "MediaPark".
@@ -166,6 +180,7 @@
 
 - name: PalangaHotel
   url: https://www.palangahotel.net
+  image: images/projects/vila-marta-home.png
   description: Advertisment site for villa on Baltic sea shore.
   status: live
   tags:
@@ -177,6 +192,7 @@
 
 - name: Yogi
   url: https://www.yogi.lt
+  image: images/projects/yogi.png
   description: Blog for Lithuanian buddhism.
   status: live
   tags:
@@ -189,6 +205,7 @@
 
 - name: MeridaShop
   url: https://www.meridashop.lt
+  image: images/projects/merida-logo.png
   description: Shop for B2B partner to resell Merida bicycles.
   status: live
   tags:
@@ -221,6 +238,7 @@
 
 - name: Santechnikas123
   url: http://santechnikas123.lt/
+  image: images/projects/santechnikas123_logo.png
   description: Website for local plumber company.
   status: live
   tags:

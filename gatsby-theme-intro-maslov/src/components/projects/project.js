@@ -8,9 +8,9 @@ import ProjectTags from "./project-tags"
 const Project = props => {
   const { name, image, url, description, status, tags, icon, year } = props
   return (
-    <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
+    <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-4">
       {image && (
-        <div className="w-full pb-4 lg:w-2/5 lg:pr-8 lg:pb-0">
+        <div className="w-1/6 pb-4 pr-4 pt-4">
           <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt={name} />
         </div>
       )}
