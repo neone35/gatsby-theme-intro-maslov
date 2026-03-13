@@ -24,10 +24,10 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^5.6.0",
     "react-images": "^1.2.0-beta.7",
-    "react-lazyload": "^3.2.0",
+    "react-lazyload": "^3.2.1",
     "react-portal-tooltip": "^2.4.7",
     "react-simple-maps": "^3.0.0",
-    "react-tabs": "^6.0.0",
+    "react-tabs": "^6.1.0",
     "styled-components": "^6.3.11",
     "tailwindcss": "^3.4.19"
   },
