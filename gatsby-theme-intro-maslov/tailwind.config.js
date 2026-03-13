@@ -1,4 +1,5 @@
-const color = require("color")
+const _color = require("color")
+const color = _color && (_color.default || _color)
 
 module.exports = theme => {
   const colors =
