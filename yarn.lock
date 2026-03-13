@@ -11267,7 +11267,7 @@ react-is@^18.3.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
   integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
 
-react-lazyload@^3.2.0:
+react-lazyload@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/react-lazyload/-/react-lazyload-3.2.1.tgz#320087741ee6aaf693369b67690799423ed4d7a3"
   integrity sha512-oDLlLOI/rRLY0fUh/HYFCy4CqCe7zdJXv6oTl2pC30tN3ezWxvwcdHYfD/ZkrGOMOOT5pO7hNLSvg7WsmAij1w==
@@ -11347,7 +11347,7 @@ react-style-singleton@^2.2.2, react-style-singleton@^2.2.3:
     get-nonce "^1.0.0"
     tslib "^2.0.0"
 
-react-tabs@^6.0.0:
+react-tabs@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/react-tabs/-/react-tabs-6.1.0.tgz#a1fc9d9b8db4c6e7bb327a1b6783bc51a1c457a1"
   integrity sha512-6QtbTRDKM+jA/MZTTefvigNxo0zz+gnBTVFw2CFVvq+f2BuH0nF0vDLNClL045nuTAdOoK/IL1vTP0ZLX0DAyQ==
