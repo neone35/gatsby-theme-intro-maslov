@@ -1,16 +1,19 @@
-const color = require("color")
+const _color = require("color")
+const color = _color && (_color.default || _color)
 
 module.exports = theme => {
   const colors =
     typeof theme === "string" ? require(`./src/themes/${theme}`) : theme
 
   return {
-    content: {
-      content: [`${__dirname}/src/**/*.js`, `./src/**/*.js`],
-      options: {
-        safelist: [/^text-skill/, /^border-skill/],
-      },
-    },
+    // Tailwind v3 expects `content` to be a plain array of globs.
+    // Move `safelist` to the top-level to match v3 config shape and
+    // silence the upgrade warning.
+    content: [
+      `${__dirname}/src/**/*.{js,jsx,ts,tsx,css}`,
+      `./src/**/*.{js,jsx,ts,tsx,css}`,
+    ],
+    safelist: [/^text-skill/, /^border-skill/],
     theme: {
       fontFamily: {
         header: ["Source Sans Pro", "sans-serif"],
