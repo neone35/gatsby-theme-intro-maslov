@@ -5,7 +5,9 @@
   "main": "index.js",
   "author": "Artur Maslov <arturthemaslov@gmail.com>",
   "dependencies": {
+    "@testing-library/react": "^16.3.2",
     "autoprefixer": "^10.4.27",
+    "babel-jest": "^30.3.0",
     "color": "^5.0.3",
     "gatsby-plugin-image": "^3.16.0",
     "gatsby-plugin-postcss": "^6.16.0",
@@ -15,7 +17,8 @@
     "gatsby-source-filesystem": "^5.16.0",
     "gatsby-transformer-sharp": "^5.16.0",
     "gatsby-transformer-yaml": "^5.16.0",
-    "postcss": "^8.4.30",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0",
     "postcss-input-range": "^6.0.0",
     "prop-types": "^15.8.1",
     "react-helmet": "^6.1.0",
@@ -26,18 +29,18 @@
     "react-simple-maps": "^3.0.0",
     "react-tabs": "^6.0.0",
     "styled-components": "^6.3.11",
-    "tailwindcss": "^4.2.1"
+    "tailwindcss": "^3.4.19"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
     "@testing-library/jest-dom": "^6.0.1",
-    "@testing-library/react": "^16.3.2",
-    "babel-jest": "^30.3.0",
+    "@testing-library/react": "^14.3.1",
+    "babel-jest": "^29.7.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^30.3.0",
-    "jest-environment-jsdom": "^30.3.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "jsdom-global": "^3.0.2"
   },
   "peerDependencies": {
