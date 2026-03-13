@@ -8,8 +8,6 @@ import {
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"
 
-const { colors } = require("tailwindcss/defaultTheme")
-
 const MapChart = () => {
   return (
     <ComposableMap
@@ -34,7 +32,8 @@ const MapChart = () => {
         }
       </Geographies>
       <Marker coordinates={[25.27, 54.68]}>
-        <circle r={10} fill={colors.black} />
+        {/* use a literal color to avoid requiring Tailwind internals at runtime */}
+        <circle r={10} fill="#000" />
       </Marker>
     </ComposableMap>
   )

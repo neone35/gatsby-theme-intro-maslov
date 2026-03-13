@@ -45,13 +45,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `fz2wjdoqskdl`,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
-    },
+    // Contentful plugin removed — not used in this site configuration
     /* Must be placed at the end */
     'gatsby-plugin-offline',
     {
