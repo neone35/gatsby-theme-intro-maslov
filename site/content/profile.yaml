@@ -2,10 +2,10 @@
   initials: AM
   logotype: images/logo.png
   name: Artur Maslov
-  email: arturthemaslov@gmail.com
+  email: artur@arturmaslov.com
   profession1: Software Developer
   prof_link_1: https://developer.android.com/
-  cv_url: https://drive.google.com/file/d/16_yaRHwNJ_k2p-Wh25KEL7H_i9NJGVn0/view?usp=sharing
+  cv_url: https://drive.google.com/file/d/1U-XEFleqVHGPwUqIgDISNP-P24s2Xrhp/view?usp=sharing
   image: images/am-pfp.png
   location: Vilnius, Lithuania
   relocation: true
@@ -13,11 +13,13 @@
   company_url: https://www.arturmaslov.com
   for_hire: true
   for_hire_url: https://paslaugos.lt/artur-maslov-am1536
-  focus: Flutter
-  focus_url: https://flutter.dev/
+  focus: KMP
+  focus_url: https://kotlinlang.org/docs/multiplatform/get-started.html
   about: >-
-    I create innovative solutions that solve real-world problems. Experience working in a team building high-quality,
-    region-specific Android apps with Kotlin and Jetpack Compose.
+    Creative developer. Fluent in 4 languages.
+    I create innovative solutions that solve real-world problems. Experienced working in a team building high-quality,
+    region-specific Android apps with Kotlin and Jetpack Compose. 
+    Currently focused on Kotlin Multiplatform, which became stable in November 2023.
   skills:
     - Kotlin
     - React
@@ -39,4 +41,4 @@
     min: 10
     max: 5000
     default: 500
-  last_update: 2025.07.24
+  last_update: 2025.12.17
