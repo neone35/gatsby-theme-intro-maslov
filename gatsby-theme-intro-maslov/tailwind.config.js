@@ -1,7 +1,7 @@
 const _color = require("color")
 const color = _color && (_color.default || _color)
 
-module.exports = theme => {
+module.exports = (theme) => {
   const colors =
     typeof theme === "string" ? require(`./src/themes/${theme}`) : theme
 
@@ -22,23 +22,21 @@ module.exports = theme => {
       extend: {
         colors: {
           ...colors,
-          "back-light": color(colors.back)
-            .lighten(0.18)
-            .hex(),
+          "back-light": color(colors.back).lighten(0.18).hex(),
         },
         borderRadius: {
           lg: "1rem",
         },
         spacing: {
-          "14": "3.5rem",
+          14: "3.5rem",
         },
         animation: {
-          'spin-slow': 'rotate360 3s linear infinite',
+          "spin-slow": "rotate360 3s linear infinite",
         },
         keyframes: {
           rotate360: {
-            '0%': {transform:'rotate(0deg)'},
-            '100%': {transform:'rotate(360deg)'},
+            "0%": { transform: "rotate(0deg)" },
+            "100%": { transform: "rotate(360deg)" },
           },
         },
       },

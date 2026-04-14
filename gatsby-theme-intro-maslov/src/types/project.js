@@ -11,7 +11,7 @@ export const ProjectType = {
   status: string,
   tags: arrayOf(string),
   url: string,
-  year: string
+  year: string,
 }
 
 export const query = graphql`

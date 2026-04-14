@@ -21,7 +21,7 @@ module.exports = ({ reporter }, options) => {
       "images/project.jpg",
     ]
 
-    filesToCopy.forEach(file =>
+    filesToCopy.forEach((file) =>
       fs.copyFileSync(
         `${__dirname}/../../../content/${file}`,
         `${contentPath}${file}`

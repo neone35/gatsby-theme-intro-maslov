@@ -8,8 +8,11 @@ const Tools = ({ tools, toolsLinks }) => (
     </h5>
     <ul className="flex-col mt-2">
       {tools.map((tool, i) => (
-        <li className="inline-block md:block mb-1 mr-1 md:mr-0 hover:opacity-75 transition-opacity duration-150" key={tool}>
-          <a 
+        <li
+          className="inline-block md:block mb-1 mr-1 md:mr-0 hover:opacity-75 transition-opacity duration-150"
+          key={tool}
+        >
+          <a
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block subpixel-antialiased bg-lead px-3 py-1 font-header font-light text-xl md:text-2xl text-lead-text"

@@ -49,10 +49,16 @@ class Location extends React.Component {
             Available for relocation
           </div>
         )}
-        <ToolTip active={this.state.isTooltipActive} position="bottom" parent="#marker-container" tooltipTimeout={150} useHover={false}>
+        <ToolTip
+          active={this.state.isTooltipActive}
+          position="bottom"
+          parent="#marker-container"
+          tooltipTimeout={150}
+          useHover={false}
+        >
           <div className="object-cover h-auto w-64">
             <LazyLoad>
-              <MapChart/>
+              <MapChart />
             </LazyLoad>
           </div>
         </ToolTip>

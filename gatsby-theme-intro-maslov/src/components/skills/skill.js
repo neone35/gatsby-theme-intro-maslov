@@ -46,7 +46,9 @@ const Skill = ({ skill, i }) => {
           <SkillSvg className={`w-full text-${colorClass} opacity-75 m-2`} />
         </li>
       </Rotate>
-      <CenteredSpan className={`text-center font-header font-bold text-${colorClass} text-md md:text-xl`}>
+      <CenteredSpan
+        className={`text-center font-header font-bold text-${colorClass} text-md md:text-xl`}
+      >
         {skill}
       </CenteredSpan>
     </div>

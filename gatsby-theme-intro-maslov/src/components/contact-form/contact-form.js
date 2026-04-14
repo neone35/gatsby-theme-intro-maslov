@@ -88,7 +88,7 @@ const ContactForm = ({ email, budget }) => {
                   max={budget.max}
                   min={budget.min}
                   name="budget"
-                  onChange={e => setSelectedBudget(e.currentTarget.value)}
+                  onChange={(e) => setSelectedBudget(e.currentTarget.value)}
                   step="1"
                   type="range"
                 />

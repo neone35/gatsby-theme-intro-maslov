@@ -9,7 +9,7 @@ const StructuredData = ({ profile, social }) => {
     name: profile.name,
     image: profile.image?.publicURL,
     jobTitle: profile.profession,
-    sameAs: social.map(item => item.url),
+    sameAs: social.map((item) => item.url),
     worksFor: {
       "@type": "Organization",
       name: profile.company,

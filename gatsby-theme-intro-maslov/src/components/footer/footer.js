@@ -41,7 +41,9 @@ const Footer = ({ name, lastUpdate, showThemeLogo = true }) => (
             </svg>
           </a>
         )}
-        <p className="text-lead"><b>Last modified</b> {lastUpdate}</p>
+        <p className="text-lead">
+          <b>Last modified</b> {lastUpdate}
+        </p>
       </div>
     </div>
   </footer>

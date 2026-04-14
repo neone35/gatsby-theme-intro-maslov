@@ -103,6 +103,24 @@
   icon: android
   year: 2021
 
+- name: Manoklase tutoring
+  url: https://manoklase.web.app/
+  image: images/projects/manoklase.png
+  description: Online tutoring platform for local company. Integrates multiple Stream SDKs and Excalidraw whiteboard. First project co-created with AI.
+  status: live
+  tags:
+    - Stream video SDK
+    - Stream chat SDK
+    - Firebase
+    - Firestore
+    - Excalidraw
+    - Vite.js
+    - TailwindCSS
+    - Opencode
+    - Openrouter
+  icon: react
+  year: 2026
+
 - name: Artur Maslov personal site
   url: https://arturmaslov.com/
   image: images/projects/am_logo_500.png
@@ -121,7 +139,7 @@
     This PWA application attempts to remake design (Material UI) and logic (calculate learning progress) of flashcard application.
     It is available to use offline on any device that supports Google Chrome or Firefox internet browsers (needs service worker support).
     Final bachelor thesis project.
-  status: live
+  status: complete
   tags:
     - NextJS
     - Webpack
@@ -182,7 +200,7 @@
   url: https://www.palangahotel.net
   image: images/projects/vila-marta-home.png
   description: Advertisment site for villa on Baltic sea shore.
-  status: live
+  status: complete
   tags:
     - Loco Translate
     - Litespeed cache
@@ -216,7 +234,7 @@
   year: 2024
 
 - name: Be spalvu
-  url: https://bespalvu.lt/
+  url: 
   description: Theme development for saxophone player / photographer.
   status: complete
   tags:
@@ -227,9 +245,9 @@
   year: 2022
 
 - name: Atrandu
-  url: https://atrandu.lt/
+  url: 
   description: Automatic article publishing from various sources / to facebook.
-  status: live
+  status: complete
   tags:
     - WP-automatic
     - WP2Social

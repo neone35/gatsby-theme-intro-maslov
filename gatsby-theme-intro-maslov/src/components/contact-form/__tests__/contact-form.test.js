@@ -1,11 +1,14 @@
-import React from 'react'
-import { render, screen, fireEvent } from '@testing-library/react'
-import ContactForm from '../contact-form'
+import React from "react"
+import { render, screen, fireEvent } from "@testing-library/react"
+import ContactForm from "../contact-form"
 
-describe('ContactForm', () => {
-  const props = { email: 'test@example.com', budget: { default: 500, min: 10, max: 5000, currency: '€' } }
+describe("ContactForm", () => {
+  const props = {
+    email: "test@example.com",
+    budget: { default: 500, min: 10, max: 5000, currency: "€" },
+  }
 
-  test('renders and toggles inquiry panel', () => {
+  test("renders and toggles inquiry panel", () => {
     render(<ContactForm {...props} />)
 
     // Inquiry checkbox label exists

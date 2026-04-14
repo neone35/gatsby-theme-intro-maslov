@@ -16,6 +16,7 @@
     "gatsby-plugin-google-analytics": "^5.16.0",
     "gatsby-plugin-google-gtag": "^5.16.0",
     "gatsby-plugin-hotjar": "^1.1.1",
+    "gatsby-plugin-image": "^3.16.0",
     "gatsby-plugin-manifest": "^5.16.0",
     "gatsby-plugin-offline": "^6.16.0",
     "gatsby-plugin-tawk.to": "^1.0.8",

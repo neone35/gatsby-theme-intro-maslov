@@ -10,7 +10,15 @@ import StructuredData from "../components/structured-data/structured-data"
 import "../styles/style.css"
 
 const IndexPage = ({ data }) => {
-  const { eduHistory, workHistory, profile, projects, site, social, certifications } = data
+  const {
+    eduHistory,
+    workHistory,
+    profile,
+    projects,
+    site,
+    social,
+    certifications,
+  } = data
 
   return (
     <div className="antialiased bg-back leading-normal font-text text-front">

@@ -3,20 +3,18 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Helmet } from "react-helmet"
 
-const SEO = props => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            description
-            locale
-            title
-          }
+const SEO = (props) => {
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          description
+          locale
+          title
         }
       }
-    `
-  )
+    }
+  `)
 
   const {
     description = site.siteMetadata.description,

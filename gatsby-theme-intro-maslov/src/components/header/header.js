@@ -20,5 +20,4 @@ Header.propTypes = {
   profile: shape(ProfileType),
 }
 
-
 export default Header
