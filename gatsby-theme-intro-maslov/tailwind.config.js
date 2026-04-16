@@ -6,9 +6,7 @@ module.exports = (theme) => {
     typeof theme === "string" ? require(`./src/themes/${theme}`) : theme
 
   return {
-    // Tailwind v3 expects `content` to be a plain array of globs.
-    // Move `safelist` to the top-level to match v3 config shape and
-    // silence the upgrade warning.
+    darkMode: "class",
     content: [
       `${__dirname}/src/**/*.{js,jsx,ts,tsx,css}`,
       `./src/**/*.{js,jsx,ts,tsx,css}`,

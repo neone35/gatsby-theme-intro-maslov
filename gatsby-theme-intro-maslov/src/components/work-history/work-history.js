@@ -15,8 +15,8 @@ const WorkHistory = ({ history }) => {
           className="history-entry relative w-1/2 py-4"
           key={`${company}_${i}`}
         >
-          <span className="dot-bg w-14 h-14 absolute bg-line inline-flex rounded-full items-center justify-center hover:opacity-75 transition-opacity duration-150">
-            <span className="dot w-5 h-5 bg-back-light rounded-full" />
+          <span className="dot-bg w-14 h-14 absolute bg-line dark:bg-gray-700 inline-flex rounded-full items-center justify-center hover:opacity-75 transition-opacity duration-150">
+            <span className="dot w-5 h-5 bg-back-light dark:bg-gray-900 rounded-full" />
           </span>
           {url ? (
             <h4 className="subpixel-antialiased">

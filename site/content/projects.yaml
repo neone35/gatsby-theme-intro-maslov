@@ -167,7 +167,7 @@
 
 - name: Geowords
   url: https://github.com/neone35/geowords
-  image: images/projects/gpswox-logo.jpg
+  image: images/projects/gpswox-logo.png
   description: >-
     Allows to associate user input with markers on the map.
     Saves search history to repeat query and set/edit marker with long press on the map.
@@ -183,7 +183,7 @@
 
 - name: Chargent
   url: https://github.com/neone35/chargent
-  image: images/projects/media-park-logo.webp
+  image: images/projects/media-park-logo.png
   description: >-
     Provides easy way of consuming Spark electric car rental API by showing data on a map or list and sorting cars by plate number or remaining battery.
     Technical task provided by "MediaPark".

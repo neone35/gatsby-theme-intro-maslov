@@ -1,5 +1,6 @@
 import { graphql } from "gatsby"
 import React from "react"
+import { ThemeProvider } from "../context/ThemeContext"
 import CustomFonts from "../components/custom-fonts/custom-fonts"
 import Footer from "../components/footer/footer"
 import Header from "../components/header/header"
@@ -21,10 +22,11 @@ const IndexPage = ({ data }) => {
   } = data
 
   return (
-    <div className="antialiased bg-back leading-normal font-text text-front">
-      <SEO />
-      <StructuredData profile={profile} social={social.nodes} />
-      <CustomFonts />
+    <ThemeProvider>
+      <div className="antialiased bg-back leading-normal font-text text-front dark:bg-gray-900 dark:text-gray-100">
+        <SEO />
+        <StructuredData profile={profile} social={social.nodes} />
+        <CustomFonts />
 
       <Header profile={profile} />
 
@@ -46,6 +48,7 @@ const IndexPage = ({ data }) => {
         lastUpdate={profile.last_update}
       />
     </div>
+  </ThemeProvider>
   )
 }
 

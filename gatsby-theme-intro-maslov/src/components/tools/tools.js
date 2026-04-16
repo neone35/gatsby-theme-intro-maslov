@@ -3,7 +3,7 @@ import { ProfileType } from "../../types"
 
 const Tools = ({ tools, toolsLinks }) => (
   <span>
-    <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
+    <h5 className="font-header font-semibold text-front dark:text-gray-100 text-sm uppercase mb-3">
       Main tools
     </h5>
     <ul className="flex-col mt-2">

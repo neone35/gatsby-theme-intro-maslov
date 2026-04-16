@@ -40,36 +40,37 @@ const MainContent = ({
 
       {profile.about && <About about={profile.about} />}
       <Projects projects={projects} />
-      <Tabs className="m-0">
-        <TabList className="border-b-4 border-line">
-           <Tab
-             selectedClassName="font-semibold bg-white text-front"
-             key="history-tab-work"
-             className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
-           >
-             <span className="text-sm uppercase mt-12 mb-3 text-center">
-               Workplaces
-             </span>
-           </Tab>
-           <Tab
-             selectedClassName="font-semibold bg-white"
-             key="history-tab-edu"
-             className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
-           >
-             <span className="text-sm uppercase mt-12 mb-3 text-center">
-               Education
-             </span>
-           </Tab>
-           <Tab
-             selectedClassName="font-semibold bg-white"
-             key="history-tab-cert"
-             className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
-           >
-             <span className="text-sm uppercase mt-12 mb-3 text-center">
-               Certifications
-             </span>
-           </Tab>
-        </TabList>
+       <Tabs className="m-0">
+         <TabList className="border-b-4 border-line dark:border-gray-700">
+            <Tab
+              selectedClassName="font-semibold bg-white dark:bg-gray-800 text-front dark:text-gray-100"
+              key="history-tab-work"
+              className="hover:bg-white dark:hover:bg-gray-800 transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
+            >
+              <span className="text-sm uppercase mt-12 mb-3 text-center">
+                Workplaces
+              </span>
+            </Tab>
+            <Tab
+              selectedClassName="font-semibold bg-white dark:bg-gray-800"
+              key="history-tab-edu"
+              className="hover:bg-white dark:hover:bg-gray-800 transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
+            >
+              <span className="text-sm uppercase mt-12 mb-3 text-center">
+                Education
+              </span>
+            </Tab>
+            <Tab
+              selectedClassName="font-semibold bg-white dark:bg-gray-800"
+              key="history-tab-cert"
+              className="hover:bg-white dark:hover:bg-gray-800 transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
+            >
+              <span className="text-sm uppercase mt-12 mb-3 text-center">
+                Certifications
+              </span>
+            </Tab>
+         </TabList>
+
         <TabPanel>
           <WorkHistory history={workHistory} />
         </TabPanel>

@@ -39,16 +39,16 @@ function createProjectsPanel(icon, projects) {
 
 const Projects = ({ projects }) => (
   <>
-    <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
+    <h5 className="font-header font-semibold text-front dark:text-gray-100 text-sm uppercase mb-3">
       Projects
     </h5>
     <Tabs className="m-0">
-      <TabList className="border-b-0 border-line">
+      <TabList className="border-b-0 border-line dark:border-gray-700">
         {getDistinctIcons(projects).map((icon, i) => (
           <Tab
-            selectedClassName="font-semibold bg-white text-front"
+            selectedClassName="font-semibold bg-white dark:bg-gray-800 text-front dark:text-gray-100"
             key={`${icon}_${i}`}
-            className="hover:bg-white transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
+            className="hover:bg-white dark:hover:bg-gray-800 transition-colors duration-100 inline-block px-3 py-2 cursor-pointer"
           >
             <ProjectIcon
               icon={icon}

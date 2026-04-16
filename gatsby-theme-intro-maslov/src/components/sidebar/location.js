@@ -43,12 +43,15 @@ class Location extends React.Component {
             {this.props.location}
           </span>
         </div>
-        {/* availability to relocate */}
-        {this.props.relocation && (
-          <div className="text-xs uppercase mt-2 font-semibold text-front font-header">
-            Available for relocation
-          </div>
-        )}
+          {/* availability to relocate */}
+          {this.props.relocation && (
+            <div className="text-xs uppercase mt-2 font-semibold text-front dark:text-gray-100 font-header">
+              Available for relocation
+            </div>
+          )}
+
+
+
         <ToolTip
           active={this.state.isTooltipActive}
           position="bottom"
