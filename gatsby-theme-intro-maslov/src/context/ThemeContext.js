@@ -4,16 +4,19 @@ const ThemeContext = createContext()
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(() => {
-    if (localStorage.getItem("theme")) {
-      return localStorage.getItem("theme")
-    }
-    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      return "dark"
+    if (typeof window !== "undefined") {
+      if (localStorage.getItem("theme")) {
+        return localStorage.getItem("theme")
+      }
+      if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        return "dark"
+      }
     }
     return "light"
   })
 
   useEffect(() => {
+    if (typeof window === "undefined") return
     const root = window.document.documentElement
     if (theme === "dark") {
       root.classList.add("dark")

@@ -5,7 +5,7 @@ import { arrayOf, shape, ProfileType, SocialType } from "../../types"
 import SocialLinks from "../social-links/social-links"
 
 const Sidebar = ({ profile, social }) => (
-  <aside className="w-full lg:w-1/3 lg:border-r border-line dark:border-gray-700 lg:px-6 xl:px-12">
+  <aside className="w-full lg:w-1/3 lg:border-r border-line dark:border-gray-700 lg:px-6 xl:px-12 lg:sticky lg:top-32 self-start">
     <div className="flex flex-col h-full justify-start md:gap-8">
       <div>
         <h2 className="font-header font-light text-front dark:text-gray-100 text-2xl leading-none mb-4">

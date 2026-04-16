@@ -43,7 +43,7 @@ const Projects = ({ projects }) => (
       Projects
     </h5>
     <Tabs className="m-0">
-      <TabList className="border-b-0 border-line dark:border-gray-700">
+       <TabList className="sticky top-20 lg:top-16 z-[60] bg-background/80 backdrop-blur-sm border-b-0 border-line dark:border-gray-700">
         {getDistinctIcons(projects).map((icon, i) => (
           <Tab
             selectedClassName="font-semibold bg-white dark:bg-gray-800 text-front dark:text-gray-100"

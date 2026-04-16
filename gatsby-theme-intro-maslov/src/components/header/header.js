@@ -5,7 +5,7 @@ import Logotype from "./logotype"
 import ThemeToggle from "../ThemeToggle"
 
 const Header = ({ profile }) => (
-  <header className="flex justify-between p-4 lg:px-8">
+  <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm lg:bg-background lg:backdrop-blur-none flex justify-between p-4 lg:px-8">
     <div className="flex items-center gap-4">
       <Logotype initials={profile.initials} logotype={profile.logotype} />
       <ThemeToggle />
