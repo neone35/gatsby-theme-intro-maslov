@@ -196,18 +196,6 @@
   icon: android
   year: 2018
 
-- name: PalangaHotel
-  url: https://www.palangahotel.net
-  image: images/projects/vila-marta-home.png
-  description: Advertisment site for villa on Baltic sea shore.
-  status: complete
-  tags:
-    - Loco Translate
-    - Litespeed cache
-    - Smush Pro
-  icon: wordpress
-  year: 2025
-
 - name: Yogi
   url: https://www.yogi.lt
   image: images/projects/yogi.png

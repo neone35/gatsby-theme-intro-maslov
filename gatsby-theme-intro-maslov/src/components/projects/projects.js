@@ -28,11 +28,14 @@ function getOneTypeProjectList(projects, distinctIcon) {
 
 function createProjectsPanel(icon, projects) {
   var tabProjects = getOneTypeProjectList(projects, icon)
+  var useGrid = tabProjects.length % 2 === 0 || tabProjects.length >= 8
   return (
     <TabPanel key={icon}>
-      {tabProjects.map((project, i) => (
-        <Project key={`${project.name}_${i}`} {...project} />
-      ))}
+      <div className={`grid grid-cols-1 ${useGrid ? "lg:grid-cols-2" : ""} gap-4 mb-4`}>
+        {tabProjects.map((project, i) => (
+          <Project key={`${project.name}_${i}`} {...project} />
+        ))}
+      </div>
     </TabPanel>
   )
 }

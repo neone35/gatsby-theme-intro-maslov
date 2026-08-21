@@ -3,7 +3,7 @@
   logotype: images/logo.png
   name: Artur Maslov
   email: artur@arturmaslov.com
-  profession1: Software Developer
+  profession1: Full-Stack engineer
   prof_link_1: https://developer.android.com/
   cv_url: https://drive.google.com/file/d/1U-XEFleqVHGPwUqIgDISNP-P24s2Xrhp/view?usp=sharing
   image: images/am-pfp.png
@@ -38,7 +38,7 @@
     - https://www.postman.com/
   budget:
     currency: €
-    min: 10
-    max: 5000
+    min: 100
+    max: 10000
     default: 500
-  last_update: 2026.04.16
+  last_update: 2026.08.21
